@@ -1,0 +1,85 @@
+body, html {
+  background-color: rgb(20, 20, 20);
+  background-image: radial-gradient(rgb(45, 45, 45) 1px, transparent 0);
+  background-size: 40px 40px;
+  background-position: -19px -19px;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+@font-face {
+    font-family: SegoeIcons;
+    src:url("Assets/Segoe Fluent Icons.ttf");
+}
+
+header {
+    -webkit-app-region: drag;
+    height: 30px;
+    background-color: none;
+    background-color: rgb(15, 15, 15);
+}
+
+.traffic {
+  position: fixed;
+  right: 0;
+  top: 0;
+  margin: 0;
+  -webkit-app-region: no-drag;
+}
+
+#close {
+  width: 50px;
+  height: 30px;
+  background-color: transparent;
+  margin: none;
+  border: none;
+  color: white;
+  font-size: 14pt;
+  font-family: SegoeIcons;
+}
+
+#close:hover {
+  background-color: rgb(255, 48, 48);
+  cursor: pointer;
+}
+
+#min {
+  width: 50px;
+  height: 30px;
+  background-color: transparent;
+  margin: none;
+  border: none;
+  color: white;
+  font-size: 14pt;
+  font-family: SegoeIcons;
+}
+
+#min:hover {
+  background-color: rgb(20, 20, 20);
+  cursor: pointer;
+}
+
+#setting {
+  width: 50px;
+  height: 30px;
+  background-color: transparent;
+  margin: none;
+  border: none;
+  color: white;
+  font-size: 14pt;
+  font-family: SegoeIcons;
+  cursor: pointer;
+  -webkit-app-region: no-drag;
+}
+
+#canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
